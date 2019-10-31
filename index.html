@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet"
+    href="http://localhost:5502/etc.clientlibs/granite/ui/components/coral/foundation/clientlibs/foundation.css">
+  </link>
+  <link rel="stylesheet"
+    href="http://localhost:5502/etc.clientlibs/granite/ui/components/coral/foundation/components/clientlibs/components.css">
+  </link>
+  <link rel="stylesheet" href="http://localhost:5502/libs/granite/ui/components/shell/clientlibs/shell.css">
+  </link>
+  <link rel="stylesheet" href="http://localhost:5502/etc.clientlibs/clientlibs/granite/coralui3.css">
+  </link>
+
+</head>
+
+<body>
+
+  <script src="http://localhost:5502/etc.clientlibs/clientlibs/granite/jquery.js"></script>
+
+  <h1>Hello World</h1>
+
+  <script>
+    $(function () {
+      console.log("ready!");
+      /* Alert - Coral class constructor*/
+      var alert = new Coral.Alert();
+
+      alert.header.innerHTML = "Hey!"
+      alert.content.innerHTML = "This is an alert.";
+      alert.variant = "info";
+
+
+      Coral.register({
+        name: 'Weather',
+        tagName: 'coral-weather',
+        className: 'coral-Weather',
+
+        properties: {
+          temperature: {
+            default: 70,
+            transform: Coral.transform.number,
+            sync: function () {
+              this.innerHTML = 'It\'s ' + this.temperature + '° outside today!';
+            }
+          }
+        }
+      });
+
+    });
+
+  </script>
+
+
+  <coral-weather></coral-weather>
+  <br>
+  <coral-alert></coral-alert>
+  <br>
+
+  <button class="coral-Button coral-Button--square coral-Button--primary">
+    <i class="coral-Icon coral-Icon--alert"></i>
+  </button>
+
+  <br>
+
+  <form class="coral-Form coral-Form--aligned u-columnLarge">
+    <div class="coral-Form-fieldwrapper">
+      <label class="coral-Form-fieldlabel" id="label-aligned-textfield-0">Label</label>
+      <input is="coral-textfield" class="coral-Form-field" placeholder="Enter your text" name="name"
+        labelledby="label-aligned-textfield-0">
+    </div>
+  </form>
+
+
+  <script src="http://localhost:5502/etc.clientlibs/clientlibs/granite/utils.js"></script>
+  <script src="http://localhost:5502/etc.clientlibs/clientlibs/granite/jquery/granite.js"></script>
+  <script src="http://localhost:5502/etc.clientlibs/clientlibs/granite/history.js"></script>
+  <script src="http://localhost:5502/etc.clientlibs/clientlibs/granite/moment.js"></script>
+
+
+  <script src="http://localhost:5502/etc.clientlibs/clientlibs/granite/coralui3.js"></script>
+  <script
+    src="http://localhost:5502/etc.clientlibs/granite/ui/components/coral/foundation/clientlibs/foundation.js"></script>
+  <script
+    src="http://localhost:5502/etc.clientlibs/granite/ui/components/coral/foundation/components/clientlibs/components.js"></script>
+  <script src="http://localhost:5502/libs/granite/ui/components/shell/clientlibs/shell.js"></script>
+
+
+  <script>
+
+    console.log('Hi');
+
+  </script>
+</body>
+
+</html>
