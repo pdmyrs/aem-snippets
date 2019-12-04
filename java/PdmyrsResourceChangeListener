@@ -33,7 +33,7 @@ import org.slf4j.LoggerFactory;
 public class PdmyrsResourceChangeListener implements ResourceChangeListener {
 	
 
-    protected static final Logger log = LoggerFactory.getLogger(InboxResourceChangeListener.class);
+    protected static final Logger log = LoggerFactory.getLogger(PdmyrsResourceChangeListener.class);
 
 	@Override
 	public void onChange(List<ResourceChange> changes) {
