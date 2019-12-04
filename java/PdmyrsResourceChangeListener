@@ -1,0 +1,50 @@
+package io.pdmyrs.events;
+
+import java.util.List;
+
+import org.apache.sling.api.resource.observation.ResourceChange;
+import org.apache.sling.api.resource.observation.ResourceChangeListener;
+import org.osgi.service.component.annotations.Component;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+/*
+ * 
+ * The Sling ResourceChangeListener has severe limitations.
+ *
+ *  [1] It can't be used to find out which properties changed on the Resource:
+ *      All the following methods have been deprecated
+ *      ResourceChange.getAddedPropertyNames()
+ *      ResourceChange.getChangedPropertyNames()
+ *      ResourceChange.getRemovedPropertyNames()
+ * 
+ * 
+ *  [2] It can't be used to track Replication Events on the Publisher because
+ *       multiple change events will be fired for the same jcr:content node.
+ * 
+ * @see https://github.com/Adobe-Consulting-Services/acs-aem-samples/blob/master/bundle/src/main/java/com/adobe/acs/samples/events/impl/SampleResourceChangeListener.java
+ * 
+ */
+
+@Component(service = ResourceChangeListener.class, immediate = true, property = {
+	Constants.SERVICE_DESCRIPTION + "=PDMYRS Sample Resource change listener",
+	ResourceChangeListener.PATHS + "=glob:/content/wknd/**"
+})
+public class PdmyrsResourceChangeListener implements ResourceChangeListener {
+	
+
+    protected static final Logger log = LoggerFactory.getLogger(InboxResourceChangeListener.class);
+
+	@Override
+	public void onChange(List<ResourceChange> changes) {
+
+
+        for (final ResourceChange change : changes) {
+        	
+
+            log.info("Resource change: {}", change);
+        
+        }
+	}
+
+}
