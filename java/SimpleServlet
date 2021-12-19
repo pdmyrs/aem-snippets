@@ -18,10 +18,10 @@ import java.io.IOException;
 
 @Component(service = { Servlet.class })
 @SlingServletResourceTypes(
-        resourceTypes="trp-ref/components/page",
+        resourceTypes="wknd/components/page",
         methods=HttpConstants.METHOD_GET,
-        extensions="txt")
-@ServiceDescription("Simple Demo Servlet")
+        extensions="pdmyrs")
+@ServiceDescription("Pdmyers Simple Servlet")
 public class SimpleServlet extends SlingSafeMethodsServlet {
 
     private static final long serialVersionUID = 1L;
