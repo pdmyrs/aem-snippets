@@ -15,6 +15,12 @@ import javax.servlet.Servlet;
 import javax.servlet.ServletException;
 import java.io.IOException;
 
+/*
+ * Simple GET servlet mapped to a resourceType with extension
+ * 
+ * NOTE: add the extension to the OSGI config for  the "Sling Servlet and Script Resolver"
+ * (pid=org.apache.sling.servlets.resolver.SlingServletResolver)
+ */
 
 @Component(service = { Servlet.class })
 @SlingServletResourceTypes(
