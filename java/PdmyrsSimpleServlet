@@ -21,7 +21,7 @@ import java.io.IOException;
         resourceTypes="wknd/components/page",
         methods=HttpConstants.METHOD_GET,
         extensions="pdmyrs")
-@ServiceDescription("Pdmyers Simple Servlet")
+@ServiceDescription("pdmyrs Simple Servlet")
 public class SimpleServlet extends SlingSafeMethodsServlet {
 
     private static final long serialVersionUID = 1L;
