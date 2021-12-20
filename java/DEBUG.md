@@ -24,25 +24,21 @@ tell the maven-dependency-plugin to download source files:
 add sling dependencies:
 
 ```
-<!-- Added by pdmyrs for sling request debugging -->
+<!-- Added by pdmyrs for sling request debugging  -->
+<!--                                              -->
+<!--          org.apache.sling.engine             -->
+<!--                                              -->
+<!--  Apache Sling Main Servlet                   -->
+<!--   "The Main processor of the Sling framework -->
+<!--    controlling all aspects of processing     -->
+<!--    requests inside of Sling, namely          -->
+<!--    authentication, resource resolution,      -->
+<!--    servlet/script resolution and execution   -->
+<!--    of servlets and scripts."                 -->
 <dependency>
     <groupId>org.apache.sling</groupId>
     <artifactId>org.apache.sling.engine</artifactId>
-    <version>2.6.18</version>
+    <version>2.7.2</version>
     <scope>provided</scope>
-</dependency>
-
-<!-- Added by pdmyrs for sling resource debugging -->
-<!-- <dependency>  -->
-<!-- 	<groupId>org.apache.sling</groupId> -->
-<!-- 	<artifactId>org.apache.sling.api</artifactId> -->
-<!-- 	<version>2.16.4</version> -->
-<!-- 	<scope>provided</scope> -->
-<!-- </dependency>       -->
-<dependency>
-   <groupId>org.apache.sling</groupId>
-   <artifactId>org.apache.sling.resourceresolver</artifactId>
-   <version>1.5.34</version>
-   <scope>provided</scope>
 </dependency>
 ```
