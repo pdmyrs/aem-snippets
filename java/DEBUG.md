@@ -1,8 +1,14 @@
 
-Add to the core/pom.xml ...
+## How to step through the Java debugger in VSCode
 
+1. Install the VSCode Extension Pack for Java
 
-tell the maven-dependency-plugin to download source files:
+https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
+
+2. Use the __maven-dependency-plugin__ to download source files
+
+     core/pom.xml snippet
+
 ```
           <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -21,7 +27,11 @@ tell the maven-dependency-plugin to download source files:
          </plugin>
 ```
 
-add sling dependencies:
+3. Add dependencies for the jars you want to step through
+
+## Useful Sling packages
+
+1. Sling Engine
 
 ```
 <!-- Added by pdmyrs for sling request debugging  -->
@@ -42,3 +52,4 @@ add sling dependencies:
     <scope>provided</scope>
 </dependency>
 ```
+
