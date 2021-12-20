@@ -53,3 +53,20 @@ https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
 </dependency>
 ```
 
+
+2. Sling ResourceResolver
+
+```
+
+<dependency>
+   <groupId>org.apache.sling</groupId>
+   <artifactId>org.apache.sling.resourceresolver</artifactId>
+   <version>1.7.0</version>
+   <scope>provided</scope>
+</dependency>
+
+```
+
+
+
+
