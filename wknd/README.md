@@ -12,7 +12,21 @@ example :
         <uber.jar.version>6.5.7</uber.jar.version>
 ```
 
-3. build and deploy:
+3. Fix build error in the `core/pom.xml` file:
+
+```
+                <dependency>
+                    <groupId>com.adobe.aem</groupId>
+                    <artifactId>uber-jar</artifactId>
+                    <version>${uber.jar.version}</version>
+                    <!-- <classifier>apis</classifier> -->
+                    <scope>provided</scope>
+                </dependency>
+```
+
+4. Delete `core/src/test` directory. These tests fail.
+
+5. Build and deploy with `-Pclassic` switch:
 
 ```
 $ mvn clean install -PautoInstallSinglePackage -Pclassic
