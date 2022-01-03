@@ -29,5 +29,5 @@ example :
 5. Build and deploy with `-Pclassic` switch:
 
 ```
-$ mvn clean install -PautoInstallSinglePackage -Pclassic
+mvn clean install -PautoInstallSinglePackage -Pclassic
 ```
