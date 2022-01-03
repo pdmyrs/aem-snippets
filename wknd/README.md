@@ -19,7 +19,14 @@ example :
                     <groupId>com.adobe.aem</groupId>
                     <artifactId>uber-jar</artifactId>
                     <version>${uber.jar.version}</version>
-                    <!-- <classifier>apis</classifier> -->
+                    <!--                                  -->
+                    <!-- pdmyrs                           -->
+                    <!-- commented out the classifer tag  -->
+                    <!-- it breaks the build              -->
+                    <!--                                  -->
+                    <!-- <classifier>apis</classifier>    -->
+                    <!--                                  -->
+                    <!--                                  -->
                     <scope>provided</scope>
                 </dependency>
 ```
