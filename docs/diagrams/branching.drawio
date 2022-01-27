@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-27T13:44:42.742Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="TB16HOGZ5bsYv0EA7WjX" version="16.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-27T14:00:12.796Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="2h5qym7MBIowOGx2Geyg" version="16.4.3" type="github">
   <diagram name="release" id="SDYwkOnSaY7hF5fSzO1D">
-    <mxGraphModel dx="1540" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1871" dy="1062" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="_iJ6i44_C3ucZC2toOJO-0" />
         <mxCell id="_iJ6i44_C3ucZC2toOJO-1" parent="_iJ6i44_C3ucZC2toOJO-0" />
@@ -20,12 +20,6 @@
           <mxGeometry x="140" y="518" as="geometry" />
         </mxCell>
         <mxCell id="_iJ6i44_C3ucZC2toOJO-9" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;endArrow=none;endFill=0;strokeColor=#3333FF;strokeWidth=3;" parent="_iJ6i44_C3ucZC2toOJO-1" source="_iJ6i44_C3ucZC2toOJO-12" target="_iJ6i44_C3ucZC2toOJO-19" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_iJ6i44_C3ucZC2toOJO-10" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=17;fontColor=#FFFFFF;endArrow=none;endFill=0;strokeColor=#3333FF;strokeWidth=3;" parent="_iJ6i44_C3ucZC2toOJO-1" source="_iJ6i44_C3ucZC2toOJO-12" target="_iJ6i44_C3ucZC2toOJO-58" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_iJ6i44_C3ucZC2toOJO-11" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=17;fontColor=#FFFFFF;endArrow=none;endFill=0;strokeColor=#3333FF;strokeWidth=3;" parent="_iJ6i44_C3ucZC2toOJO-1" source="_iJ6i44_C3ucZC2toOJO-12" target="_iJ6i44_C3ucZC2toOJO-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_iJ6i44_C3ucZC2toOJO-12" value="F1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=22;strokeWidth=3;strokeColor=#3333FF;" parent="_iJ6i44_C3ucZC2toOJO-1" vertex="1">
@@ -147,32 +141,23 @@
         <mxCell id="_iJ6i44_C3ucZC2toOJO-52" value="F2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=22;strokeWidth=3;strokeColor=#3333FF;" parent="_iJ6i44_C3ucZC2toOJO-1" vertex="1">
           <mxGeometry x="1370" y="1028" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="_iJ6i44_C3ucZC2toOJO-55" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=17;fontColor=#FFFFFF;endArrow=none;endFill=0;strokeColor=#3333FF;strokeWidth=3;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="_iJ6i44_C3ucZC2toOJO-1" source="_iJ6i44_C3ucZC2toOJO-56" target="_iJ6i44_C3ucZC2toOJO-19" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_iJ6i44_C3ucZC2toOJO-56" value="F1-a" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;strokeWidth=3;strokeColor=#3333FF;labelBackgroundColor=#3333FF;fontColor=#FFFFFF;" parent="_iJ6i44_C3ucZC2toOJO-1" vertex="1">
-          <mxGeometry x="470" y="1170" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="_iJ6i44_C3ucZC2toOJO-57" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=17;fontColor=#FFFFFF;endArrow=none;endFill=0;strokeColor=#3333FF;strokeWidth=3;" parent="_iJ6i44_C3ucZC2toOJO-1" source="_iJ6i44_C3ucZC2toOJO-58" target="_iJ6i44_C3ucZC2toOJO-19" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_iJ6i44_C3ucZC2toOJO-58" value="F1-b" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;strokeWidth=3;strokeColor=#3333FF;labelBackgroundColor=#3333FF;fontColor=#FFFFFF;" parent="_iJ6i44_C3ucZC2toOJO-1" vertex="1">
-          <mxGeometry x="520" y="1250" width="50" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="_iJ6i44_C3ucZC2toOJO-59" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=17;fontColor=#FFFFFF;endArrow=none;endFill=0;strokeColor=#3333FF;strokeWidth=3;" parent="_iJ6i44_C3ucZC2toOJO-1" source="_iJ6i44_C3ucZC2toOJO-60" target="_iJ6i44_C3ucZC2toOJO-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_iJ6i44_C3ucZC2toOJO-60" value="C3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=22;strokeWidth=3;strokeColor=#3333FF;" parent="_iJ6i44_C3ucZC2toOJO-1" vertex="1">
           <mxGeometry x="1370" y="1110" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="_iJ6i44_C3ucZC2toOJO-65" value="C3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=22;strokeWidth=3;strokeColor=#3333FF;" parent="_iJ6i44_C3ucZC2toOJO-1" vertex="1">
+        <mxCell id="_iJ6i44_C3ucZC2toOJO-65" value="F3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=22;strokeWidth=3;strokeColor=#3333FF;" parent="_iJ6i44_C3ucZC2toOJO-1" vertex="1">
           <mxGeometry x="1510" y="1110" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_iJ6i44_C3ucZC2toOJO-66" value="F3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=22;strokeWidth=3;strokeColor=#3333FF;" parent="_iJ6i44_C3ucZC2toOJO-1" vertex="1">
           <mxGeometry x="1370" y="1110" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="_iJ6i44_C3ucZC2toOJO-67" value="A &#39;feature&#39; branch is merged to &#39;next&#39; when it is ready for deployment to DEV. Once a &#39;component&#39; branch is ready for UAT, it is merged to a &#39;release&#39; branch and deployed to STAGE. This keeps code that is actively under development isolated to the &#39;next&#39; branch and deployable to DEV. After a &#39;component&#39; branch is merged to a &#39;release&#39; branch, any bug fixes are committed to the &#39;component&#39; branch and merged again to the &#39;release&#39; branch.&amp;nbsp;&lt;br&gt;&lt;br&gt;Development work is done on a &#39;feature&#39; branch that is cut from a &#39;component&#39; branch. This allows for multiple developers working on the same cq:Component at the same time. Merging from a &#39;feature&#39; branch to a &#39;component&#39; branch requires an MR. Merging from a &#39;component&#39; branch to the &#39;next&#39; branch also requires an MR, but it can only be merged by a project maintainer.&lt;br&gt;&lt;br&gt;After the &#39;release&#39; branch is deployed to PROD, it is merged to &#39;master&#39; and a new &#39;release&#39; branch is cut from &#39;master&#39;. The new &#39;release&#39; branch is rebased to &#39;next&#39; and deployed to DEV.&lt;br&gt;&lt;br&gt;There is no need to synch up &#39;feature&#39; branches after a release, since these will have to be merged to a &#39;component&#39; branch with has already been synched. Or be merged with the &#39;release&#39; if they are ready for UAT." style="text;html=1;strokeColor=#FFB366;fillColor=#FFFFCC;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;perimeterSpacing=2;strokeWidth=2;opacity=60;shadow=0;glass=1;fontFamily=Helvetica;sketch=0;spacingLeft=8;labelPosition=center;verticalLabelPosition=middle;" parent="_iJ6i44_C3ucZC2toOJO-1" vertex="1">
-          <mxGeometry x="1690" y="1008" width="500" height="562" as="geometry" />
+        <mxCell id="_iJ6i44_C3ucZC2toOJO-67" value="A &#39;feature&#39; branch is merged to &#39;next&#39; when it is ready for deployment to DEV. Once a &#39;feature&#39; branch is ready for UAT, it is merged to a &#39;release&#39; branch and deployed to SIT. This keeps code that is actively under development isolated to the &#39;next&#39; branch and deployable to DEV. After a &#39;feature&#39; branch is merged to a &#39;release&#39; branch, any defect fixes are merged to the &#39;release&#39; branch and tested in SIT. When the defects fixes are validated the &#39;release&#39; branch is merged back to the &#39;next&#39;&lt;br&gt;&lt;br&gt;After the &#39;release&#39; branch is deployed to PROD, it is merged to &#39;master&#39; and a new &#39;release&#39; branch is cut from &#39;master&#39;. The new &#39;release&#39; branch is rebased to &#39;next&#39; and deployed to DEV.&lt;br&gt;&lt;br&gt;There is no need to synch up &#39;feature&#39; branches after a release, since these will have to be merged to a &#39;component&#39; branch with has already been synched. Or be merged with the &#39;release&#39; if they are ready for UAT." style="text;html=1;strokeColor=#FFB366;fillColor=#FFFFCC;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;perimeterSpacing=2;strokeWidth=2;opacity=60;shadow=0;glass=1;fontFamily=Helvetica;sketch=0;spacingLeft=8;labelPosition=center;verticalLabelPosition=middle;spacingRight=8;" parent="_iJ6i44_C3ucZC2toOJO-1" vertex="1">
+          <mxGeometry x="1700" y="560" width="500" height="422" as="geometry" />
+        </mxCell>
+        <mxCell id="f3lHC2IzpjxRuybxEILP-0" value="PROBLEMS:&lt;br&gt;&lt;br&gt;How do we keep &#39;feature&#39; branches in synch with &#39;next&#39; ? We could have developers pull from &#39;next&#39;. But there is a potential that code from other &#39;feature&#39; branches that are not ready for release will get pulled.&amp;nbsp;" style="text;html=1;strokeColor=#FFB366;fillColor=#FFFFCC;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;perimeterSpacing=2;strokeWidth=2;opacity=60;shadow=0;glass=1;fontFamily=Helvetica;sketch=0;spacingLeft=8;labelPosition=center;verticalLabelPosition=middle;spacingRight=8;" vertex="1" parent="_iJ6i44_C3ucZC2toOJO-1">
+          <mxGeometry x="1700" y="1160" width="500" height="422" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
