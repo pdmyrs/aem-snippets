@@ -8,7 +8,7 @@ AEM 6.5.7
 ACS Commons Version 5.1.0
 Core Components 2.12.2
 
-##Logging
+### Logging
 enable debug for `com.adobe.acs.commons.rewriter.impl.VersionedClientlibsTransformerFactory`
 
 
