@@ -4,9 +4,9 @@ Provided by [ACS Commons](https://adobe-consulting-services.github.io/acs-aem-co
 
 The attached [package](../files/vslingfloderclientlib.zip) has the configuration required (as described in the Adobe docs) for we.retail 
 
-AEM 6.5.7
-ACS Commons Version 5.1.0
-Core Components 2.12.2
+__AEM 6.5.7__<p>
+__ACS Commons Version 5.1.0__<p>
+__Core Components 2.12.2__<p>
 
 ### Logging
 enable debug for `com.adobe.acs.commons.rewriter.impl.VersionedClientlibsTransformerFactory`
