@@ -2,7 +2,7 @@ Versioned clientlibs uses Sling Rewriter to rewrite the client libraries generat
 
 Provided by [ACS Commons](https://adobe-consulting-services.github.io/acs-aem-commons/features/versioned-clientlibs/index.html)
 
-The attached package has the configuration required (as described in the Adobe docs) for we.retail 
+The attached [package](../files/vslingfloderclientlib.zip) has the configuration required (as described in the Adobe docs) for we.retail 
 
 AEM 6.5.7
 ACS Commons Version 5.1.0
