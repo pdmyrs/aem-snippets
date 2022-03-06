@@ -8,32 +8,14 @@ For example:-
 
 * Versioned Client Library URL:- http://localhost:4502/etc.clientlibs/weretail/clientlibs/clientlib-base.f2e70583096c942b4b71351437bce842.js
 
-Whenever there is a change in the client libs it will create a new version of the client libs,
-but the problem is the pages which are already cached in the dispatcher before a new version of the clientlibs still refer the previous version.
-We need to clear the dispatcher cache whenever there is a change in client libs
+Whenever there is a change in the client libs it will create a new version of the client libs, but the problem is the pages which are already cached in the dispatcher before a new version of the clientlibs still refer the previous version. We need to clear the dispatcher cache whenever there is a change in client libs
 
 
-Normal ClientLibs :
+How to enable versioned clientLibs:
 
-All css in to single file
-All js files in to single file
+1. Create "/apps/<project>/config/rewriter[sling:Folder]"
 
-These concatenated single files will be cached and kept for smaller TTL.
-But what if we modify the our custom css/js files,end user will keep on viewing the old inconsistent data.
-
-once the existing file expired as ttl is small, again new clientLibs are fetched and changes will reflect but at the cost of page load time.
-
-Versioned ClientLibs:
-
-Please find the steps followed to implement versioned client libs
-
- 
-
-Versioned Client Libraries
-
-1. Create "/apps/thf/config/rewriter[sling:Folder]"
-
-2. Create "/apps/thf/config/rewriter/versioned-clientlibs.xml" file and copy below
+2. Create "/apps//config/rewriter/versioned-clientlibs.xml" file and copy below
 
  
 ```xml
