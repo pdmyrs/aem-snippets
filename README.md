@@ -7,3 +7,7 @@ use this page to try out Coral component:
 Reference with sample code for each:
 https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/coral-ui/coralui3/components.html
 
+
+tpd/components/structure/iid/common/base-page/v1/base-page  (existing) does not show.
+tpd/components/structure/iid/common/base-page/v2/base-page* (new) og shows
+
