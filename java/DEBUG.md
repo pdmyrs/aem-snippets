@@ -63,6 +63,14 @@ https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
 
 ```
 
+<!-- Added by pdmyrs for sling request debugging  -->
+<!--                                              -->
+<!--   org.apache.sling.resourceresolver          -->
+<!--                                              -->
+<!--  A resource resolver provides various        -->
+<!--  methods to manage resources.                -->
+<!--  All changes are transient and require to    -->
+<!--  commit them at the end.                     -->
 <dependency>
    <groupId>org.apache.sling</groupId>
    <artifactId>org.apache.sling.resourceresolver</artifactId>
