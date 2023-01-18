@@ -81,6 +81,28 @@ https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
 ```
 
 
-
+3. Sling Models
+```
+   <!-- Apache Sling Models Dependencies -->
+     <dependency>
+         <groupId>org.apache.sling</groupId>
+         <artifactId>org.apache.sling.models.api</artifactId>
+         <version>1.3.8</version>
+         <scope>provided</scope>
+     </dependency>
+     <dependency>
+         <groupId>org.apache.sling</groupId>
+         <artifactId>org.apache.sling.models.impl</artifactId>
+         <version>1.4.10</version>
+         <scope>provided</scope>
+     </dependency>
+     <dependency>         
+         <groupId>org.apache.sling</groupId>
+         <artifactId>org.apache.sling.models.jacksonexporter</artifactId>
+         <version>1.0.8</version>
+         <scope>provided</scope>
+     </dependency>
+```
+     
 
 
