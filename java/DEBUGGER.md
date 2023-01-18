@@ -53,7 +53,7 @@ https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
 <dependency>
     <groupId>org.apache.sling</groupId>
     <artifactId>org.apache.sling.engine</artifactId>
-    <version>2.7.2</version>
+    <version>2.7.8</version>
     <scope>provided</scope>
 </dependency>
 ```
