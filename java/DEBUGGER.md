@@ -121,7 +121,8 @@ https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
 
 5. HTL
 
-
+```
+<!-- Added by pdmyrs for sling auth debugging -->
              <dependency>
                  <artifactId>org.apache.sling.scripting.core</artifactId>
                  <version>2.0.56</version>
@@ -130,13 +131,15 @@ https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
              </dependency>
 
 
+<!-- Added by pdmyrs for sling auth debugging -->
              <dependency>
                  <artifactId>org.apache.sling.scripting.sightly</artifactId>
                  <version>1.1.2-1.4.0</version>
                  <groupId>org.apache.sling</groupId>
                  <scope>provided</scope>
              </dependency>
-             
+ 
+<!-- Added by pdmyrs for sling auth debugging -->
              <dependency>
                  <groupId>org.apache.sling</groupId>
                  <artifactId>org.apache.sling.scripting.sightly.runtime</artifactId>
@@ -144,12 +147,12 @@ https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
                  <scope>provided</scope>
              </dependency>
 
-
+<!-- Added by pdmyrs for sling auth debugging -->
              <dependency>
                  <artifactId>org.apache.sling.scripting.sightly.compiler</artifactId>
                  <version>1.1.2-1.4.0</version>
                  <groupId>org.apache.sling</groupId>
                  <scope>provided</scope>
              </dependency>
-
+```
 
