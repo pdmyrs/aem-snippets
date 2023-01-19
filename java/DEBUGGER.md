@@ -15,8 +15,8 @@ https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
 <!-- Use the maven-dependency-plugin to           -->
 <!-- download source code for the debugger        -->
 <!--                                              -->
-          <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
+<plugin>
+<groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
                 <version>3.1.2</version>
                 <executions>
@@ -104,5 +104,18 @@ https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
      </dependency>
 ```
      
+4. Sling Auth
+
+```
+<!-- Added by pdmyrs for sling auth debugging -->
+	<dependency>
+		<artifactId>org.apache.sling.auth.core</artifactId> 
+		<version>1.4.2</version> 
+		<groupId>org.apache.sling</groupId> 
+		<scope>provided</scope> 
+	</dependency>  
+     
+     
+```
 
 
