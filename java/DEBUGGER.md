@@ -16,19 +16,19 @@ https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
 <!-- download source code for the debugger        -->
 <!--                                              -->
 <plugin>
-<groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-dependency-plugin</artifactId>
-                <version>3.1.2</version>
-                <executions>
-                  <execution>
-                    <id>download-sources</id>
-                    <goals>
-                      <goal>sources</goal>
-                    </goals>
-                    <configuration>
-                    </configuration>
-                  </execution>
-                </executions>
+   <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-dependency-plugin</artifactId>
+       <version>3.1.2</version>
+       <executions>
+          <execution>
+            <id>download-sources</id>
+             <goals>
+                <goal>sources</goal>
+                </goals>
+             <configuration>
+             </configuration>
+             </execution>
+             </executions>
          </plugin>
 ```
 
