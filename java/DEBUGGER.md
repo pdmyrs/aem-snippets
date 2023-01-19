@@ -119,3 +119,37 @@ https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
 ```
 
 
+5. HTL
+
+
+             <dependency>
+                 <artifactId>org.apache.sling.scripting.core</artifactId>
+                 <version>2.0.56</version>
+                 <groupId>org.apache.sling</groupId>
+                 <scope>provided</scope>
+             </dependency>
+
+
+             <dependency>
+                 <artifactId>org.apache.sling.scripting.sightly</artifactId>
+                 <version>1.1.2-1.4.0</version>
+                 <groupId>org.apache.sling</groupId>
+                 <scope>provided</scope>
+             </dependency>
+             
+             <dependency>
+                 <groupId>org.apache.sling</groupId>
+                 <artifactId>org.apache.sling.scripting.sightly.runtime</artifactId>
+                 <version>1.1.0-1.4.0</version>
+                 <scope>provided</scope>
+             </dependency>
+
+
+             <dependency>
+                 <artifactId>org.apache.sling.scripting.sightly.compiler</artifactId>
+                 <version>1.1.2-1.4.0</version>
+                 <groupId>org.apache.sling</groupId>
+                 <scope>provided</scope>
+             </dependency>
+
+
