@@ -16,11 +16,11 @@ https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
 <!-- download source code for the debugger        -->
 <!--                                              -->
 <plugin>
-   <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-dependency-plugin</artifactId>
-       <version>3.1.2</version>
-       <executions>
-          <execution>
+  <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-dependency-plugin</artifactId>
+    <version>3.1.2</version>
+    <executions>
+        <execution>
             <id>download-sources</id>
              <goals>
                 <goal>sources</goal>
@@ -29,7 +29,7 @@ https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
              </configuration>
              </execution>
              </executions>
-         </plugin>
+</plugin>
 ```
 
 3. Add dependencies for the jars you want to step through
