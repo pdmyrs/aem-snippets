@@ -82,6 +82,9 @@ https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
 
 
 3. Sling Models
+
+Find the installed versions for these by going to the felix console > bundles and searching for "models"
+
 ```
 <!-- Added by pdmyrs for sling model debugging  -->
 <!--                                              -->
