@@ -97,7 +97,7 @@ Find the installed versions for these by going to the felix console > bundles an
      <dependency>
          <groupId>org.apache.sling</groupId>
          <artifactId>org.apache.sling.models.impl</artifactId>
-         <version>1.4.10</version>
+         <version>1.4.16</version>
          <scope>provided</scope>
      </dependency>
      <dependency>         
