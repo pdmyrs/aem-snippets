@@ -86,7 +86,8 @@ https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
 Find the installed versions for these by going to the felix console > bundles and searching for "models"
 
 ```
-<!-- Added by pdmyrs for sling model debugging  -->
+<!--                                              -->
+<!--  Added by pdmyrs for sling model debugging   -->
 <!--                                              -->
      <dependency>
          <groupId>org.apache.sling</groupId>
@@ -106,6 +107,17 @@ Find the installed versions for these by going to the felix console > bundles an
          <version>1.0.8</version>
          <scope>provided</scope>
      </dependency>
+     
+    
+<!--                                              -->
+<!--  Jackson core libraries used by the Sling Model Exporter framework             -->
+<!--                                              -->
+     <dependency>
+	<artifactId>jackson-databind</artifactId>
+	<groupId>com.fasterxml.jackson.core</groupId>
+	<version>2.11.4</version>
+	<scope>provided</scope>
+      </dependency>  
 ```
      
 4. Sling Auth
