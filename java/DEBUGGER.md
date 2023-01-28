@@ -107,11 +107,10 @@ Find the installed versions for these by going to the felix console > bundles an
          <version>1.0.8</version>
          <scope>provided</scope>
      </dependency>
-     
-    
-<!--                                              -->
-<!--  Jackson core libraries used by the Sling Model Exporter framework             -->
-<!--                                              -->
+<!--                                       -->
+<!--  Jackson core libraries used by       -->
+<!--  the Sling Model Exporter framework   -->
+<!--                                       -->
      <dependency>
 	<artifactId>jackson-databind</artifactId>
 	<groupId>com.fasterxml.jackson.core</groupId>
