@@ -59,11 +59,11 @@ https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
 ```
 
 
-2. Sling ResourceResolver
+2. Sling Resources
 
 ```
 
-<!-- Added by pdmyrs for sling request debugging  -->
+<!-- Added by pdmyrs for sling resources debugging  -->
 <!--                                              -->
 <!--   org.apache.sling.resourceresolver          -->
 <!--                                              -->
@@ -76,6 +76,12 @@ https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
    <artifactId>org.apache.sling.resourceresolver</artifactId>
    <version>1.7.0</version>
    <scope>provided</scope>
+</dependency>
+ <dependency>
+	<artifactId>org.apache.sling.api</artifactId>
+	<version>2.22.0</version>
+	<groupId>org.apache.sling</groupId>
+	<scope>provided</scope>
 </dependency>
 
 ```
